@@ -8,7 +8,9 @@
     "type-check": "tsc --noEmit",
     "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx ./src",
     "format": "prettier --write ./src",
-    "test": "vitest"
+    "test": "vitest",
+    "preview:worker": "npm run build && wrangler pages dev",
+    "deploy:worker": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

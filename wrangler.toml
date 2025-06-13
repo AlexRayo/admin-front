@@ -1,6 +1,7 @@
 name = "react-admin"
 compatibility_date = "2023-09-01"
 main = "src/index.ts"
+pages_build_output_dir = "./dist"
 
 # Habilita el modo Modules (es lo recomendado para código moderno)
 type = "module"
