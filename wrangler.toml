@@ -1,0 +1,16 @@
+name = "react-admin"
+compatibility_date = "2023-09-01"
+main = "src/index.ts"
+
+# Habilita el modo Modules (es lo recomendado para código moderno)
+type = "module"
+
+# D1: base de datos SQLite serverless
+[[d1_databases]]
+binding = "DB"                           # Cómo accedes a la DB en el código
+database_name = "tienda_db"
+database_id = "d49f2fc7-b8c3-4207-b598-6d33217a6720"
+
+# Dev server local
+[dev]
+port = 8787
